@@ -54,18 +54,19 @@
         }
         updateBannerVisibility();
       }
-
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/MissionDemolitionBuild/Build/MissionDemolitionBuild.loader.js";
+      
+      var buildUrl = "MissionDemolitionBuild/Build";
+      var loaderUrl = buildUrl + "/MissionDemolitionBuild.loader.js";
+      
       var config = {
-        dataUrl: buildUrl + "MissionDemolitionBuild.data.br",
-        frameworkUrl: buildUrl + "MissionDemolitionBuild.framework.js.br",
-        codeUrl: buildUrl + "MissionDemolitionBuild.wasm.br",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Mission Demolition",
-        productVersion: "0.1.0",
-        showBanner: unityShowBanner,
+          dataUrl: buildUrl + "/MissionDemolitionBuild.data",
+          frameworkUrl: buildUrl + "/MissionDemolitionBuild.framework.js",
+          codeUrl: buildUrl + "/MissionDemolitionBuild.wasm",
+          streamingAssetsUrl: "StreamingAssets",
+          companyName: "DefaultCompany",
+          productName: "Mission Demolition",
+          productVersion: "0.1.0",
+          showBanner: unityShowBanner,
       };
 
       // By default, Unity keeps WebGL canvas render target size matched with
