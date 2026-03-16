@@ -1,0 +1,5 @@
+Project 2 Mission Demolition
+
+The project features 4 levels, sound to the slingshot and blocks
+
+The "Fun" Change I made was add destructibility to the blocks, achieving a certain velocity destroys the block, the velocity can be configured. I added this as level 4 was difficult without it.
